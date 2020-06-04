@@ -15,3 +15,6 @@ En base a esto, se puede agregar que en clase vimos como pueden existir muchisim
 **Cout:** Cout or Output Stream hace referencia a una secuencia de caracteres que salen del programa hacia un dispositivo de salida. En los programas, si se quiere mostrar algo por pantalla, se utiliza esta variable.
 
 **Assert:** A diferencia del *Cout*, es utilizado para comparar una variable contra un valor esperado, y frenar el programa en caso de que se devuelva un 'falso'
+
+---
+Jueves 21 de Mayo, 2020
