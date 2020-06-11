@@ -20,20 +20,30 @@ Se utilizaran las premisas para corroborar con un bool si el año (year) es bisi
 IsBisiesto: N -> B 
 
 #### Lexico
-year >= 1582 and (year%4 == 0) and ((year%100 != 0) or (year%400 == 0));.
-p: year es mayor o igual a 1582.
-q: year es divisible entre 4.
-r: year es divisible entre 400.
-s: year divisible entre 100.
+year >= 1582 and (year%4 == 0) and ((year%100 != 0) or (year%400 == 0));
+
+p: year es mayor o igual a 1582
+
+q: year es divisible entre 4
+
+r: year es divisible entre 400
+
+s: year divisible entre 100
+
 
 #### Arbol
 ![](https://raw.githubusercontent.com/juanjoseferrari/AED/master/03-Bisiesto/diagramaarboltp3.jpg)
 
 ### Pruebas
-assert(IsBisiesto(2020));.
-assert (IsBisiesto(1582));.
-assert (not IsBisiesto(45));.
-assert (not IsBisiesto(1583));.
-assert (IsBisiesto(1900));.
+assert(IsBisiesto(2020));
+
+assert (IsBisiesto(1582));
+
+assert (not IsBisiesto(45));
+
+assert (not IsBisiesto(1583));
+
+assert (IsBisiesto(1900));
+
 
 ### 
