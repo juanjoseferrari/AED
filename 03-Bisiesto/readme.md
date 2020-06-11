@@ -13,4 +13,4 @@ Para evaluar la hipotesis, contamos con las siguientes premisas:
 4. El año debe ser mayor o igual a 1582
 
 ### Modelo Ipo
-
+![](https://raw.githubusercontent.com/juanjoseferrari/AED/master/03-Bisiesto/modeloipotp3.jpg)
