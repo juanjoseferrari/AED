@@ -1,10 +1,10 @@
-### Objetivo:
+## Objetivo:
 Demostrar el uso de operadores booleanos y expresiones complejas.
 
-### Problema:
+## Problema:
 Dado un año, determinar si es bisiesto.
 
-### Analisis del problema
+## Analisis del problema
 **Hipotesis:** Dado un año determinar si es bisiesto
 Para evaluar la hipotesis, contamos con las siguientes premisas:
 1. Si es divisible entre 4 es bisiesto
@@ -12,11 +12,12 @@ Para evaluar la hipotesis, contamos con las siguientes premisas:
 3. Si es divisible entre 400, es bisiesto
 4. El año debe ser mayor o igual a 1582
 
-### Modelo Ipo
+## Modelo Ipo
 ![](https://raw.githubusercontent.com/juanjoseferrari/AED/master/03-Bisiesto/modeloipotp3.jpg)
 
-### Diseño de la solucion
-Se utilizaran las premisas para corroborar con un bool si el año (year) es bisiesto.
+## Diseño de la solucion
+Se utilizaran las premisas para corroborar con un bool si el año (year) es bisiesto. La funcion toma como valor un numero entero que es el año (year) y devuelve un bool que indica como verdadero el año bisiesto y como falso el que no lo es. Para corroborar la funcion se utilizaran asserts con años de prueba enumerados debajo.
+
 IsBisiesto: N -> B 
 
 #### Lexico
