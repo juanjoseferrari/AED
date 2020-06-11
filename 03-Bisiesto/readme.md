@@ -27,8 +27,13 @@ r: year es divisible entre 400
 s: year divisible entre 100
 
 #### Arbol
-![]()
+![](https://raw.githubusercontent.com/juanjoseferrari/AED/master/03-Bisiesto/diagramaarboltp3.jpg)
 
 ### Pruebas
+assert(IsBisiesto(2020));
+assert (IsBisiesto(1582));
+assert (not IsBisiesto(45));
+assert (not IsBisiesto(1583));
+assert (IsBisiesto(1900));
 
 ### 
